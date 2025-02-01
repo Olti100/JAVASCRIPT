@@ -2,7 +2,7 @@
 // var test= null;
 // var test2;
 // var X = "x"
-// var $njdnv;
+// var njdn$v;
 // var _test = 3
 
 var a = 50 + 50;
