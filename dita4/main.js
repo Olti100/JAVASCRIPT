@@ -1,50 +1,50 @@
-// var pc = {
-//     name: "Lenovo"
-//     model: "i fundit";
-//     GPU: "Nvidia;";
-//     CPU: "Intel I7";
-// }
+var pc = {
+    name: "Lenovo"
+    model: "i fundit";
+    GPU: "Nvidia;";
+    CPU: "Intel I7";
+}
 
-// console.log(pc.name)
+console.log(pc.name)
 
-// var computer = new Object;
+var computer = new Object;
 
-// computer.name = "Lenovo";
-// computer.CPU = "Intel Core i7";
-// computer.GPU = "GeForce";
-// computer.RAM = "16GB";
+computer.name = "Lenovo";
+computer.CPU = "Intel Core i7";
+computer.GPU = "GeForce";
+computer.RAM = "16GB";
 
-// computer.type = function(){
-//     return this.name + ", " + this.CPU + ", " + this.RAM + ", " + this.GPU
-// }
-// console.log(computer.type())
-// console.log(computer.name)
-// console.log(computer['name'])
+computer.type = function(){
+    return this.name + ", " + this.CPU + ", " + this.RAM + ", " + this.GPU
+}
+console.log(computer.type())
+console.log(computer.name)
+console.log(computer['name'])
 
 
-// var kerri = {
-//     emri: "Mercedes",
-//     modeli: "CLS",
-//     ngjyra: "E zez",
-//     viti: 2025,
-//     kilometrat: 0,
-//     startEngine: function(){
-//         console.log("Vrooomm!!");
-//     },
+var kerri = {
+    emri: "Mercedes",
+    modeli: "CLS",
+    ngjyra: "E zez",
+    viti: 2025,
+    kilometrat: 0,
+    startEngine: function(){
+        console.log("Vrooomm!!");
+    },
 
-//     get getKilometrat(){
-//        return this.kilometrat; 
-//     },
+    get getKilometrat(){
+       return this.kilometrat; 
+    },
 
-//     set setKilometrat(km){
-//         this.kilometrat = km;
-//     }
-// }
+    set setKilometrat(km){
+        this.kilometrat = km;
+    }
+}
 
-// console.log(kerri.getKilometrat);
+console.log(kerri.getKilometrat);
 
-// kerri.setKilometrat = 1000;
-// console.log(kerri.getKilometrat)
+kerri.setKilometrat = 1000;
+console.log(kerri.getKilometrat)
 
 function Kerri(emri, modeli, ngjyra, viti, kilometrat){
     this.emri = emri;
