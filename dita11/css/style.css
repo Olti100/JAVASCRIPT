@@ -1,0 +1,17 @@
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    padding: 20px;
+    background-color: rgba(1,1,1,0.2);
+}
+
+.next{
+    right: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0,0,0,0.5);
+}
